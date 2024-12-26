@@ -1,6 +1,7 @@
 {
 	"name": "scripts",
 	"version": "1.0.0",
+	"type": "module",
 	"description": "Scripts I use around that don't have a place on npm",
 	"scripts": {
 		"build:registry": "jsrepo build"
@@ -11,6 +12,8 @@
 		"jsrepo": "^1.22.2"
 	},
 	"dependencies": {
-		"chalk": "^5.4.1"
+		"@shikijs/markdown-it": "^1.24.4",
+		"chalk": "^5.4.1",
+		"markdown-it": "^14.1.0"
 	}
 }
