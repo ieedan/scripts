@@ -1,0 +1,13 @@
+{
+	"name": "scripts",
+	"version": "1.0.0",
+	"description": "Scripts I use around that don't have a place on npm",
+	"scripts": {
+		"build:registry": "jsrepo build"
+	},
+	"author": "Aidan Bleser",
+	"license": "MIT",
+	"devDependencies": {
+		"jsrepo": "^1.22.2"
+	}
+}

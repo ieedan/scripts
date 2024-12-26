@@ -1,0 +1,22 @@
+[
+	{
+		"name": "general",
+		"blocks": [
+			{
+				"name": "hello",
+				"directory": "src/general",
+				"category": "general",
+				"tests": false,
+				"subdirectory": false,
+				"list": true,
+				"files": [
+					"hello.ts"
+				],
+				"localDependencies": [],
+				"_imports_": {},
+				"dependencies": [],
+				"devDependencies": []
+			}
+		]
+	}
+]
