@@ -1,23 +1,26 @@
 [
 	{
-		"name": "general",
+		"name": "markdown",
 		"blocks": [
 			{
-				"name": "hello",
-				"directory": "src/general",
-				"category": "general",
+				"name": "build-posts",
+				"directory": "src/markdown/build-posts",
+				"category": "markdown",
 				"tests": false,
-				"subdirectory": false,
+				"subdirectory": true,
 				"list": true,
 				"files": [
-					"hello.ts"
+					"index.ts",
+					"markdown.ts",
+					"types.ts"
 				],
 				"localDependencies": [],
-				"_imports_": {},
 				"dependencies": [
-					"chalk@^5.4.1"
+					"markdown-it@^14.1.0",
+					"@shikijs/markdown-it@^1.24.4"
 				],
-				"devDependencies": []
+				"devDependencies": [],
+				"_imports_": {}
 			}
 		]
 	}
