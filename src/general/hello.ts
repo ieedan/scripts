@@ -1,6 +1,7 @@
 // this is just here for testing purposes
 
 import readline from "node:readline";
+import color from 'chalk'
 
 const rl = readline.createInterface({
 	input: process.stdin,
@@ -24,7 +25,7 @@ const main = async () => {
 		n = await askQuestion("What is your name? ");
 	}
 
-	console.log(`Hello ${n}`);
+	console.log(`Hello ${color.cyan(n)}!`);
 
 	process.exit(0);
 };

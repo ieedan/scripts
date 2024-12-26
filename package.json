@@ -9,5 +9,8 @@
 	"license": "MIT",
 	"devDependencies": {
 		"jsrepo": "^1.22.2"
+	},
+	"dependencies": {
+		"chalk": "^5.4.1"
 	}
 }
