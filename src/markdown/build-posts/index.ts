@@ -5,7 +5,7 @@ import Shiki from "@shikijs/markdown-it";
 import { parseFrontmatter } from "./markdown";
 import { Post } from "./types";
 
-const POSTS_DIRECTORY = "./src/lib/blog/posts";
+const POSTS_DIRECTORY = "./posts";
 const CHANGE_DEBOUNCE = 50;
 const OUT_FILE = "./posts.js";
 
