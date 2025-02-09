@@ -9,7 +9,10 @@
 	"author": "Aidan Bleser",
 	"license": "MIT",
 	"devDependencies": {
-		"jsrepo": "^1.22.2"
+		"@types/markdown-it": "^14.1.2",
+		"@types/node": "^22.13.1",
+		"jsrepo": "^1.22.2",
+		"typescript": "^5.7.3"
 	},
 	"dependencies": {
 		"@shikijs/markdown-it": "^1.24.4",
