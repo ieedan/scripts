@@ -21,7 +21,9 @@
 					],
 					"localDependencies": [],
 					"_imports_": {},
-					"dependencies": [],
+					"dependencies": [
+						"chalk@^5.4.1"
+					],
 					"devDependencies": []
 				}
 			]

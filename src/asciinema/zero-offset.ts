@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import color from 'chalk'
 
-const args = process.argv;
+const args = process.argv.slice(2);
 
 const originalFile = args[0];
 const newFile = args[1];
