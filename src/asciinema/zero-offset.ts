@@ -1,9 +1,12 @@
 import fs from "node:fs";
+import color from 'chalk'
 
 const args = process.argv;
 
 const originalFile = args[0];
 const newFile = args[1];
+
+console.info(`Reading from ${color.cyan(originalFile)}`);
 
 const file = fs.readFileSync(originalFile).toString();
 
@@ -21,6 +24,8 @@ for (let i = 0; i < lines.length; i++) {
 
 	lines[i] = editTime(lines[i], offsetBy);
 }
+
+console.info(`Writing to ${color.cyan(newFile)}`);
 
 fs.writeFileSync(newFile, lines.join("\n"));
 
