@@ -1,6 +1,6 @@
 import fs from "node:fs";
 
-const args = process.argv.slice(2);
+const args = process.argv;
 
 const originalFile = args[0];
 const newFile = args[1];
