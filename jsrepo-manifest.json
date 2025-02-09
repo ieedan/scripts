@@ -1,27 +1,55 @@
-[
-	{
-		"name": "markdown",
-		"blocks": [
-			{
-				"name": "build-posts",
-				"directory": "src/markdown/build-posts",
-				"category": "markdown",
-				"tests": false,
-				"subdirectory": true,
-				"list": true,
-				"files": [
-					"index.ts",
-					"markdown.ts",
-					"types.ts"
-				],
-				"localDependencies": [],
-				"dependencies": [
-					"markdown-it@^14.1.0",
-					"@shikijs/markdown-it@^1.24.4"
-				],
-				"devDependencies": [],
-				"_imports_": {}
-			}
-		]
-	}
-]
+{
+	"meta": {
+		"authors": [
+			"Aidan Bleser"
+		],
+		"description": "A collection of useful scripts."
+	},
+	"categories": [
+		{
+			"name": "asciinema",
+			"blocks": [
+				{
+					"name": "zero-offset",
+					"directory": "src/asciinema",
+					"category": "asciinema",
+					"tests": false,
+					"subdirectory": false,
+					"list": true,
+					"files": [
+						"zero-offset.ts"
+					],
+					"localDependencies": [],
+					"_imports_": {},
+					"dependencies": [],
+					"devDependencies": []
+				}
+			]
+		},
+		{
+			"name": "markdown",
+			"blocks": [
+				{
+					"name": "build-posts",
+					"directory": "src/markdown/build-posts",
+					"category": "markdown",
+					"tests": false,
+					"subdirectory": true,
+					"list": true,
+					"files": [
+						"index.ts",
+						"markdown.ts",
+						"types.ts"
+					],
+					"localDependencies": [],
+					"dependencies": [
+						"markdown-it@^14.1.0",
+						"@shikijs/markdown-it@^1.24.4"
+					],
+					"devDependencies": [],
+					"_imports_": {}
+				}
+			]
+		}
+	]
+}

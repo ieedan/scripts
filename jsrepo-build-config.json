@@ -1,5 +1,9 @@
 {
-	"$schema": "https://unpkg.com/jsrepo@1.22.2/schemas/registry-config.json",
+	"$schema": "https://unpkg.com/jsrepo@1.34.0/schemas/registry-config.json",
+	"meta": {
+		"authors": ["Aidan Bleser"],
+		"description": "A collection of useful scripts."
+	},
 	"dirs": [
 		"./src"
 	],
